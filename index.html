@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrogFlipper (FFROG)</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #aaffee, #ffdd44);
+            color: #333;
+            overflow: hidden;
+        }
+        header {
+            text-align: center;
+            padding: 50px;
+            animation: bounce 2s infinite;
+        }
+        h1 {
+            font-size: 50px;
+            color: #228B22;
+        }
+        h2 {
+            font-size: 30px;
+            color: #FF4500;
+        }
+        .description {
+            font-size: 24px;
+            margin: 20px;
+        }
+        .button {
+            background-color: #FFCC00;
+            border: none;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            border-radius: 10px;
+            margin: 10px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #FFD700;
+        }
+        .image {
+            max-width: 300px;
+            margin: 20px auto;
+            display: block;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FrogFlipper</h1>
+        <h2>(FFROG)</h2>
+        <img src="https://raw.githubusercontent.com/meemgen/FrogFlipper/main/FrogFlipper.png" alt="FrogFlipper Logo" class="image">
+        <p class="description">Jumping high with memes, bouncing back with laughter! 🎉</p>
+    </header>
+    <div style="text-align: center;">
+        <a href="https://x.com/XRP_Alerts" class="button">Join us on Twitter 🐸</a>
+        <a href="https://x.com/XRP_Alerts" class="button">Chat on Telegram 💬</a>
+    </div>
+</body>
+</html>
